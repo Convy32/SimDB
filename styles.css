@@ -1,3 +1,47 @@
 body {
     margin: 0;
 }
+
+.prtitle {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
+    background-color: aqua;
+    border: 2.5px solid gold;
+    border-radius: 10px;
+    height: 50px;
+    max-width: unset;
+}
+
+.prh1 {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.prlarge {
+    display: block;
+    width: 40%;
+    border: 2.5px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+/*.prs2 {
+    text-align: left;
+    align-items: left;
+}*/
+
+.prh2 {
+    text-align: left;
+    margin: 0 0 0 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 40px;
+}
+
+
+.prhead {
+    display: flex;
+    margin-top: 20px;
+}
