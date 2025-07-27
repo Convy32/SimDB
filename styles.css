@@ -33,15 +33,38 @@ body {
     align-items: left;
 }*/
 
-.prh2 {
-    text-align: left;
-    margin: 0 0 0 20px;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size: 40px;
+.prmeta {   
+    display: flex;
+    flex-direction: column;
 }
 
+.prh2 {
+    margin: 0 0 0 20px;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    align-self: flex-start;
+    display: inline-block;
+}
+
+.prprice {
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    padding-top: 10px;
+
+}
 
 .prhead {
     display: flex;
     margin-top: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: left;
+}
+
+.prinfo {
+    padding-top: 15px;
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    list-style-type: circle;
+    padding-left: 20px;
 }
