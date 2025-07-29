@@ -1,0 +1,43 @@
+<?php
+$wheels = [
+    'sample' => [
+        'name' => 'Sample Wheel',
+        'price' => '999',
+        'diameter' => '300',
+        'build' => 'Carbon',
+        'grip' => 'Silicone',
+        'paddles' => 'Shifters',
+        'display' => '3.9" LCD',
+        'software' => 'SimHub',
+        'qr' => 'Customisable',
+        'connectivity' => 'Wired + Wireless',
+        'weight' => '1.39',
+        'warranty' => '24 Months',
+    ],
+    'gsi-formula-pro-elite-v2' => [
+        'name' => 'GSI Formula Pro Elite V2',
+        'price' => '1119',
+        'diameter' => '300',
+        'build' => 'Aluminum + Carbon Front',
+        'grip' => 'Silicone',
+        'paddles' => 'Customisable',
+        'display' => '4.3" Touchscreen LCD',
+        'software' => 'GSI simOS + SimHub',
+        'qr' => 'Customisable',
+        'connectivity' => 'Wired',
+        'weight' => '1.43 - 1.53',
+        'warranty' => '12 Months',
+    ],
+    'simagic-gt-neo' => [
+        'name' => 'Simagic GT Neo',
+        'price' => '649',
+        'diameter' => '300',
+        'grip' => 'Silicon',
+        'paddles' => 'Shifters + Dual Clutch',
+        'display' => '',
+        'qr' => 'Simagic',
+        'connectivity' => 'Wired/Wireless',
+        'warranty' => '12 Months',
+    ],
+];
+?>
