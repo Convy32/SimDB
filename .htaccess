@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Rewrite /wheel/sample to /wheel.php?id=sample, and for other catgories. M
+# Make sure to add any new catgories created
+RewriteRule ^(wheel|base|pedals|chassis|bundle)/([a-zA-Z0-9\-]+)$ $1.php?id=$2 [L,QSA]
