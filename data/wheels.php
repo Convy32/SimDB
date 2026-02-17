@@ -2,6 +2,7 @@
 $wheels = [
     'sample' => [
         'name' => 'Sample Wheel',
+        'type' => 'round',
         'price' => '999',
         'diameter' => '300',
         'build' => 'Carbon',
@@ -16,6 +17,7 @@ $wheels = [
     ],
     'gsi-formula-pro-elite-v2' => [
         'name' => 'GSI Formula Pro Elite V2',
+        'type' => 'formula',
         'price' => '1119',
         'diameter' => '300',
         'build' => 'Aluminum + Carbon Front',
@@ -30,6 +32,7 @@ $wheels = [
     ],
     'simagic-gt-neo' => [
         'name' => 'Simagic GT Neo',
+        'type' => 'formula',
         'price' => '649',
         'diameter' => '300',
         'build' => 'Carbon Fibre Composite',
